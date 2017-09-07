@@ -15,7 +15,7 @@ public class App {
     public static void main(String [] args){
         Scanner read = new Scanner(System.in);
         System.out.println("ingresa un valor en C°");
-        float celsius = read.nextInt();
+        float celsius = read.nextFloat();
         
         ConversorFahrenheit obj = new ConversorFahrenheit();
         float resultado = obj.obtenerFahrenheit(celsius);
